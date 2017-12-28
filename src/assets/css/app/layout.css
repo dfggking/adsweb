@@ -1,0 +1,90 @@
+@charset "utf-8";
+html,body,#app{
+  height: 100%;
+  overflow: hidden;
+}
+.form_panel .form-group{
+  position: relative;
+  margin-bottom: 20px;
+}
+.form_panel .form-group .form-input {
+  background: transparent;
+  width: 100%;
+  height: 40px;
+  padding: 5px 10px;
+  border: 0;
+  border-bottom: 1px solid #F1F3EE;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form_panel .form-group .form-input:-moz-placeholder{
+  color: #818A9D; opacity:0.7;
+}
+.form_panel .form-group .form-input::-moz-placeholder{
+  color: #818A9D;opacity:0.7;
+}
+.form_panel .form-group .form-input:-ms-input-placeholder{
+  color: #818A9D;opacity:1;
+}
+.form_panel .form-group .form-input::-webkit-input-placeholder{
+  color: #818A9D;opacity:1;
+}
+
+.login_bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #2e3e5e;
+}
+.login_bg .logo{
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.login_bg .form_panel {
+  position: absolute;
+  top: 20%;
+  width: 80%;
+  left: 10%;
+  height: 60%;
+}
+
+
+.form_panel .submit{
+  width: 100%;
+  margin-top: 15px;
+  background-color: #E85533;
+  border-color: #E85533;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.form_panel .submit.active,
+.form_panel .submit.is-active,
+.form_panel .submit:active {
+  background-color: #f64c59;
+  border-color: #f64c59;
+  color: #fff;
+}
+.new-user {
+  display: block;
+  margin-top: 25px;
+  text-align: center;
+  color: #EC7038;
+  font-size: 16px;
+  text-decoration: none;
+}
+.user-btn_oper{
+  margin-top: 25px;
+  text-align: center;
+}
